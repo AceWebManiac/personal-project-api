@@ -6,6 +6,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 const authRoutes = require('./routes/auth-routes');
+const graphicRoutes = require('./routes/graphics-routes');
 
 const app = express();
 
@@ -44,6 +45,7 @@ app.use((req, res, next) => {
 
 // REST API Routes
 app.use('/api/auth', authRoutes);
+app.use('/api/graphic', graphicRoutes);
 
 // Error Handling
 app.use((req, res, next) => {
