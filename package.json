@@ -11,7 +11,7 @@
   "author": "Francisco Ruiz",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "debug": "^4.1.1",
     "express": "^4.17.1",
     "helmet": "^3.21.2",
